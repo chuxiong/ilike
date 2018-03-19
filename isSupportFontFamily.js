@@ -1,3 +1,5 @@
+// from http://www.zhangxinxu.com/wordpress/2018/02/js-detect-suppot-font-family/
+// 示例：isSupportFontFamily('Microsoft Yahei')  true：以安装 false：未安装
 var isSupportFontFamily = function(f) { 
   if (typeof f != "string") { 
     return false 
